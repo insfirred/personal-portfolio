@@ -377,6 +377,7 @@ body {
 .copyright img {
     position: relative;
     top: 20px;
+    width: 30px;
 }
 
 .designed p {
@@ -385,7 +386,7 @@ body {
 }
 
 
-/*  Media Queries for mobile version  */
+/*  Media Queries for mobile version  
 
 @media(max-width: 800px) {
     #showcase {
@@ -417,3 +418,4 @@ body {
         top: 55px;
     }
 }
+*/

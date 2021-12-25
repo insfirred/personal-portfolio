@@ -1,0 +1,76 @@
+#showcase {
+    flex-direction: column;
+    height: 95vh;
+}
+
+.nav-links {
+    visibility: hidden;
+}
+
+#popbar {
+    visibility: visible;
+}
+
+.floating-icons {
+    left: 0px;
+    top: 340px;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.floating-icons img {
+    left: 0px;
+    padding: 0;
+}
+
+.opening-text {
+    top: 0px;
+    margin-left: 25px;
+}
+
+.opening-image img {
+    width: 250px;
+    position: relative;
+    top: 55px;
+}
+
+#education {
+    justify-content: space-around;
+    height: 70vh;
+}
+
+#education h1 {
+    top: 0;
+}
+
+.edu-cards {
+    flex-direction: column;
+    width: 90vw;
+    height: 65vh;
+}
+
+.jss {
+    flex-direction: row;
+    width: auto;
+    top: 0;
+    justify-content: space-between;
+}
+
+.jss p {
+    margin: 0;
+    padding: 0;
+    width: 55%;
+}
+
+.jss h2 {
+    position: relative;
+    bottom: 72px;
+}
+
+.jss img {
+    position: absolute;
+    top: 30%;
+    width: 125px;
+    margin: 0;
+    /* visibility: hidden; */
+}
