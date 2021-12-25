@@ -362,11 +362,26 @@ body {
     height: 50px;
     color: antiquewhite;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-top: 30px;
+}
+
+.copyright {
+    display: flex;
+    align-items: end;
+}
+
+.copyright img {
+    position: relative;
+    top: 20px;
+}
+
+.designed p {
+    position: relative;
+    right: 20px;
 }
 
 
