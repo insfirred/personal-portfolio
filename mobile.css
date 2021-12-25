@@ -4,7 +4,7 @@
 }
 
 .nav-links {
-    visibility: hidden;
+    visibility: visible;
 }
 
 #popbar {
@@ -36,7 +36,7 @@
 
 #education {
     justify-content: space-around;
-    height: 70vh;
+    height: 100vh;
 }
 
 #education h1 {
@@ -46,7 +46,7 @@
 .edu-cards {
     flex-direction: column;
     width: 90vw;
-    height: 65vh;
+    height: 75vh;
 }
 
 .jss {
@@ -72,5 +72,90 @@
     top: 30%;
     width: 125px;
     margin: 0;
-    /* visibility: hidden; */
+}
+
+#projects {
+    height: 156vh;
+    justify-content: space-between;
+}
+
+.weather {
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0;
+    width: auto;
+}
+
+.weather h2 {
+    width: 100vw;
+    left: 0;
+    margin: 0;
+}
+
+.project-details {
+    align-items: center;
+}
+
+.project-details h2 {
+    margin-bottom: 10px;
+}
+
+.project-pic {
+    margin-top: 30px;
+}
+
+.many-more p {
+    right: 0;
+}
+
+#btn1 {
+    position: absolute;
+    top: 228vh;
+    right: 70px;
+    width: 65px;
+    height: 23px;
+}
+
+#btn2 {
+    position: absolute;
+    top: 303vh;
+    right: 215px;
+    width: 65px;
+    height: 23px;
+}
+
+#contact {
+    justify-content: space-evenly;
+    height: 40vh;
+}
+
+.all-details {
+    flex-direction: column;
+}
+
+.mail {
+    margin: 0;
+    padding-left: 21%;
+}
+
+.social-icons {
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.foot {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.designed {
+    width: 85vw;
+    text-align: center;
+}
+
+.designed p {
+    position: absolute;
+    right: 68px;
 }

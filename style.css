@@ -268,7 +268,7 @@ body {
     justify-content: space-around;
 }
 
-#btn {
+#btn1 {
     width: 100px;
     height: 40px;
     background-color: rgb(111, 190, 221);
@@ -277,13 +277,33 @@ body {
     font-size: 25px;
 }
 
-#btn a {
+#btn1 a {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-#btn:hover {
+#btn1:hover {
+    background-color: rgb(255, 217, 167);
+    transition: all 0.4s ease;
+}
+
+#btn2 {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(111, 190, 221);
+    border: none;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
+}
+
+#btn2 a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn2:hover {
     background-color: rgb(255, 217, 167);
     transition: all 0.4s ease;
 }
@@ -384,38 +404,3 @@ body {
     position: relative;
     right: 20px;
 }
-
-
-/*  Media Queries for mobile version  
-
-@media(max-width: 800px) {
-    #showcase {
-        flex-direction: column;
-    }
-    .nav-links {
-        visibility: hidden;
-    }
-    #popbar {
-        visibility: visible;
-    }
-    .floating-icons {
-        left: 0px;
-        top: 340px;
-        width: 100vw;
-        justify-content: space-around;
-    }
-    .floating-icons img {
-        left: 0px;
-        padding: 0;
-    }
-    .opening-text {
-        top: 0px;
-        margin-left: 25px;
-    }
-    .opening-image img {
-        width: 250px;
-        position: relative;
-        top: 55px;
-    }
-}
-*/
