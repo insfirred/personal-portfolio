@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+#navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#k-icon {
+    margin: 20px;
+}
+
+.icons {
+    width: 40px;
+    filter: invert(1);
+}
+
+#popbar {
+    filter: invert(1);
+    width: 30px;
+    position: absolute;
+    right: 20px;
+    visibility: hidden;
+}
+
+.nav-links {
+    padding-right: 40px;
+}
+
+.nav-links a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    padding: 0 10px;
+}
+
+#showcase {
+    height: 90.4vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.opening-text {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Ubuntu Mono', monospace;
+    position: relative;
+    top: -30px;
+}
+
+.opening-text p {
+    padding: 5px 0;
+    font-size: 25px;
+}
+
+.opening-image img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.floating-icons {
+    filter: invert(1);
+    position: absolute;
+    top: 430px;
+    left: 210px;
+    display: flex;
+}
+
+.floating-icons img {
+    width: 40px;
+    padding: 0 30px;
+}
+
+@keyframes bounce1 {
+    0% {
+        top: 20px;
+    }
+    5% {
+        top: 25px;
+    }
+    55% {
+        top: -25px;
+    }
+    100% {
+        top: 20px;
+    }
+}
+
+.animation1 {
+    position: relative;
+    animation: bounce1 2s linear infinite;
+}
+
+@keyframes bounce2 {
+    0% {
+        top: 5px;
+    }
+    20% {
+        top: 25px;
+    }
+    70% {
+        top: -25px;
+    }
+    100% {
+        top: 5px;
+    }
+}
+
+.animation2 {
+    position: relative;
+    animation: bounce2 2s linear infinite;
+}
+
+@keyframes bounce3 {
+    0% {
+        top: -10px;
+    }
+    35% {
+        top: 25px;
+    }
+    85% {
+        top: -25px;
+    }
+    100% {
+        top: -10px;
+    }
+}
+
+.animation3 {
+    position: relative;
+    animation: bounce3 2s linear infinite;
+}
+
+@keyframes bounce4 {
+    0% {
+        top: -25px;
+    }
+    50% {
+        top: 25px;
+    }
+    100% {
+        top: -25px;
+    }
+}
+
+.animation4 {
+    position: relative;
+    animation: bounce4 2s linear infinite;
+}
+
+#education {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+#education h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -20px;
+}
+
+.edu-cards {
+    display: flex;
+    width: 98vw;
+    justify-content: space-around;
+}
+
+.jss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    font-family: 'Ubuntu Mono', monospace;
+    position: relative;
+    top: -30px;
+}
+
+.jss p {
+    font-size: 25px;
+    padding: 0 40px;
+    text-align: justify;
+    color: antiquewhite;
+    margin-top: 10px;
+}
+
+.jss img {
+    width: 250px;
+    border-radius: 10%;
+    margin-top: 25px;
+    position: relative;
+    top: 25px;
+}
+
+#projects {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 140vh;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    align-items: center;
+}
+
+#projects h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.weather {
+    display: flex;
+    width: 98vw;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.weather h2 {
+    font-size: 35px;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 10px;
+    position: relative;
+    left: -55px;
+}
+
+.weather p {
+    font-size: 25px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: justify;
+}
+
+.weather img {
+    width: 300px;
+    border-radius: 15%;
+}
+
+.project-details {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(111, 190, 221);
+    border: none;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
+}
+
+#btn a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(229, 241, 247);
+    transition: all 0.4s ease;
+}
+
+.many-more p {
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+    position: relative;
+    right: 360px;
+}
+
+#contact {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+#contact h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.social-icons {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons img {
+    filter: invert(1);
+    width: 50px;
+}
+
+.social-icons img:hover {
+    opacity: 60%;
+    transition: all 0.4s ease;
+}
+
+.all-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+}
+
+.mail a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.mail a:hover {
+    color: rgb(139, 203, 255);
+    transition: all 0.4s ease;
+}
+
+.mail img {
+    filter: invert(1);
+    width: 30px;
+    margin-right: 30px;
+}
+
+
+/*  Media Queries for mobile version  */
+
+@media(max-width: 800px) {
+    #showcase {
+        flex-direction: column;
+    }
+    .nav-links {
+        visibility: hidden;
+    }
+    #popbar {
+        visibility: visible;
+    }
+    .floating-icons {
+        left: 0px;
+        top: 340px;
+        width: 100vw;
+        justify-content: space-around;
+    }
+    .floating-icons img {
+        left: 0px;
+        padding: 0;
+    }
+    .opening-text {
+        top: 0px;
+        margin-left: 25px;
+    }
+    .opening-image img {
+        width: 250px;
+        position: relative;
+        top: 55px;
+    }
+}
