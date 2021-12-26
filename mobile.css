@@ -75,7 +75,7 @@
 }
 
 #projects {
-    height: 156vh;
+    height: 190vh;
     justify-content: space-between;
 }
 
@@ -94,10 +94,13 @@
 
 .project-details {
     align-items: center;
+    width: 320px;
 }
 
 .project-details h2 {
     margin-bottom: 10px;
+    font-size: 34px;
+    text-align: center;
 }
 
 .project-pic {
@@ -109,17 +112,17 @@
 }
 
 #btn1 {
-    position: absolute;
-    top: 228vh;
-    right: 70px;
+    position: relative;
     width: 65px;
     height: 23px;
+    bottom: 22px;
+    left: 125px;
 }
 
 #btn2 {
-    position: absolute;
-    top: 303vh;
-    right: 215px;
+    position: relative;
+    bottom: 23px;
+    left: 130px;
     width: 65px;
     height: 23px;
 }
@@ -148,14 +151,19 @@
     margin: 0;
     flex-direction: column;
     align-items: center;
+    height: auto;
+}
+
+.copyright img {
+    margin: 18px 5px;
 }
 
 .designed {
-    width: 85vw;
+    width: auto;
     text-align: center;
 }
 
 .designed p {
-    position: absolute;
-    right: 68px;
+    right: 0;
+    font-size: 20px;
 }
