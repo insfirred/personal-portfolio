@@ -41,6 +41,12 @@ body {
     padding-right: 40px;
 }
 
+#close-btn {
+    position: absolute;
+    visibility: hidden;
+    width: 30px;
+}
+
 .nav-links a {
     color: antiquewhite;
     text-decoration: none;
